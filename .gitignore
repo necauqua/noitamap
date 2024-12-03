@@ -1,4 +1,5 @@
 node_modules
 
-# typescript build output
+# typescript build outputs
 /public/js
+/backend/dist

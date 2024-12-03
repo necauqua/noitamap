@@ -1,2 +1,6 @@
 # dont copy dev node_modules into the docker context
 **/node_modules
+
+# and dont clobber build outputs too ig
+public/js
+backend/dist

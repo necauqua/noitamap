@@ -1,0 +1,38 @@
+{
+  "name": "noitamap-backend",
+  "version": "1.0.0",
+  "description": "Noita Map Backend",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acidflow-noita/noitamap.git"
+  },
+  "type": "module",
+  "keywords": [
+    "Map",
+    "Noita",
+    "Noita",
+    "Map",
+    "Noitamap",
+    "OpenseaDragon"
+  ],
+  "author": "necauqua",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/acidflow-noita/noitamap/issues"
+  },
+  "homepage": "https://github.com/acidflow-noita/noitamap#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "prettier": "^3.4.1",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
