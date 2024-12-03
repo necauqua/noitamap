@@ -1,0 +1,2 @@
+# dont copy dev node_modules into the docker context
+**/node_modules
