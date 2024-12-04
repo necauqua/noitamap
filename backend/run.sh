@@ -7,7 +7,7 @@
 # I'm mimicking it - aka the final container still does everything like it did
 # except now it also has the backend thing embedded too lol
 
-node dist/main.cjs &
+node dist/main.js &
 BACKEND_PID=$!
 
 nginx -g 'daemon off;' &

@@ -1,5 +1,7 @@
 node_modules
 
+.wrangler
+
 # typescript build outputs
 /public/js
 /backend/dist

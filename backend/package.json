@@ -4,7 +4,8 @@
   "description": "Noita Map Backend",
   "main": "dist/main.js",
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "run": "tsup && node dist/main.js"
   },
   "repository": {
     "type": "git",
@@ -26,13 +27,17 @@
   },
   "homepage": "https://github.com/acidflow-noita/noitamap#readme",
   "devDependencies": {
+    "@types/express": "^5.0.0",
     "@types/node": "^22.10.1",
+    "@types/ws": "^8.5.13",
     "prettier": "^3.4.1",
     "tsup": "^8.3.5",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"
   },
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^5.0.1",
+    "ws": "^8.18.0",
+    "zod": "^3.23.8"
   }
 }
